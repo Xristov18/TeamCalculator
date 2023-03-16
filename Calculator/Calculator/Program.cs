@@ -44,7 +44,7 @@ namespace Calculator
                             Console.WriteLine(OptionsManager.Multiply(a, b));
                             break;
                         case "d":
-                            Console.WriteLine(OptionsManager.Devide(a,b);
+                            Console.WriteLine(OptionsManager.Devide(a,b));
                             break;
                     }
                 }
