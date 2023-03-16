@@ -23,5 +23,6 @@ namespace Calculator.Tests
             //Assert
             Assert.AreEqual(expectedResult, actualResult);
         }
+
     }
 }
