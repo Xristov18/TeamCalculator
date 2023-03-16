@@ -37,7 +37,7 @@ namespace Calculator
             }
             else
             {
-                return $"{a / b}";
+                return $"{a} / {b} = {a / b}";
             }
         }
         
