@@ -37,7 +37,9 @@ namespace Calculator
                         case "a":
                             Console.WriteLine(OptionsManager.Add(a, b));
                             break;
-                        
+                        case "sabs":
+                            Console.WriteLine(OptionsManager.SubtractAbs(a, b));
+                            break;
 
                     }
                 }
@@ -47,6 +49,7 @@ namespace Calculator
                 }
                 Console.WriteLine("Press any key to continue...");
                 Console.ReadKey(true);
+
             }
         }
     }
