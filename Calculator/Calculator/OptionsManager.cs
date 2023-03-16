@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,6 +29,17 @@ namespace Calculator
         {
             return $"{a} + {b} = {a + b}";
         }
+        public static string SubtractAbs(double a,double b)
+        {
+            double res = a - b;
+            return $"|{a} - {b}| =  {Math.Abs(res) }";
+        }
+        public static string Subtract(double a, double b)
+        {
+            return $"{a} - {b} = {a - b}";
+        }
+
+
 
         
         public static string Multiply(double a, double b)
