@@ -37,6 +37,12 @@ namespace Calculator
                         case "a":
                             Console.WriteLine(OptionsManager.Add(a, b));
                             break;
+
+                        case "m":
+                            Console.WriteLine(OptionsManager.Multiply(a, b));
+                            break;
+
+
                         case "d":
                             Console.WriteLine(OptionsManager.Devide(a,b);
                             break;
